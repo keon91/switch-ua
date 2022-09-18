@@ -10,10 +10,16 @@ body {
     background: #53dfdf;
     padding: 10px 30px;
 }
-.flex, .about, .subscribe, .plan-flex {
+.flex, .about, .subscribe {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.plan-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 32px;
 }
 .nav-li {
     display: inline-block;
@@ -22,16 +28,16 @@ body {
     margin-left: 20px;
 }
 .nav-link {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Sigmar One', cursive;
     font-weight: 500;
     font-size: 18px;
     line-height: 0.8;
     letter-spacing: -0.468947px;
-    color: #8b4513;
+    color: #004ff9;
     text-decoration: none;
 }
 .nav-link:hover {
-    color: #b8860b;
+    color: #f2f700;
     transition: 300ms;
 }
 .n-hover {
@@ -77,13 +83,19 @@ body {
 .about {
     margin: 100px auto 85px;
 }
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .about-title {
     font-weight: 700;
-    font-size: 80px;
-    line-height: 77px;
+    font-size: 30px;
+    line-height: 27px;
     letter-spacing: -2.50105px;
     color: #19191B;
     max-width: 470px;
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 .about-text {

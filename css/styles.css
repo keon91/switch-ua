@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.plan-flex {
+.flexbox {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -69,10 +69,10 @@ body {
     border-radius: 15px;
     cursor: pointer;
 }
-.btn-orange {
+.btn-yellow {
     background: #f0e68c;
 }
-.btn-orange:hover {
+.btn-yellow:hover {
     background: #ffff00;
     color: #0000ff;
     transition: 500ms;
@@ -83,12 +83,22 @@ body {
 .about {
     margin: 100px auto 85px;
 }
-.category {
+.category, .container-subcategory {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-title {
+.first-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 470px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.about-title, .subcategory-title {
     font-weight: 700;
     font-size: 30px;
     line-height: 27px;

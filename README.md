@@ -5,9 +5,9 @@
 ***
 <h3 class="about-title">Git Cheat Sheet</h3>
 
-![](https://github.com/Vitaliy-31/switch-ua/blob/main/img/git-cheat-sheet.png)
+![](https://github.com/Vitaliy-31/switch-ua/blob/main/img/git-cheat-sheet.jpg)
 
 ***
 <h3 class="about-title">Markdown</h3>
 
-![](https://github.com/Vitaliy-31/switch-ua/blob/main/img/markdown.png)
+![](https://github.com/Vitaliy-31/switch-ua/blob/main/img/markdown.jpg)

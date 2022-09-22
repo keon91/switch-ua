@@ -83,7 +83,7 @@ body {
 .about {
     margin: 100px auto 85px;
 }
-.category, .container-subcategory {
+.container-category, .container-subcategory {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +133,7 @@ body {
     background: #cbf1e0;
     transition: 500ms;
 }
-.img-html-css {
+.first-img {
    border-radius: 15px;
 }
 .subscribe {
@@ -166,10 +166,10 @@ body {
 .input:focus {
     outline: none;
 }
-.plan{
+.container-third{
     margin-bottom: 132px;
 }
-.plan-title {
+.container-third-title {
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;

@@ -77,7 +77,7 @@ body {
     color: #0000ff;
     transition: 500ms;
 }
-.container-about {
+.container-about, .container-frontend {
     padding: 38px 0 48px;
 }
 .about {
